@@ -14,7 +14,7 @@ app.register(fastifyCors, {
   origin: 'http://localhost:5173',
 });
 
-app.get('/teste', () => {
+app.get('/health', () => {
   return 'teste bem feito';
 });
 

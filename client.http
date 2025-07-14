@@ -1,0 +1,13 @@
+#variables
+
+@baseurl = http://localhost:3333
+
+# health check
+
+GET {{baseurl}}/health
+
+###
+
+# get rooms
+
+GET {{baseurl}}/rooms
